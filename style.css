@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Outfit", sans-serif ;
+    background-image: url('images/bg1.jpg');
+    
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width:320px;
+    height:499px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom:40px ;
+    padding-top: 16px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow:0px 7px 29px 0px rgba(100,100,111,0.2);
+}
+
+
+#QR{
+    border-radius: 20px;
+    width: 288px;
+    height: 288px;
+
+}
+
+.first-section{
+    width: 256px;
+    height: 52px;
+}
+
+.second-section{
+    width: 256px;
+    height: 63px;
+}
+
+
+
+.text-container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 16px;
+    gap:16px;
+}
+
+.text-container h1{
+text-align: center;
+ font-size: 20px;
+color:hsl(218, 44%, 22%);
+font-weight: 700;
+}
+
+.text-container p{
+    font-size: 15px;
+    color:hsl(216, 15%, 48%);
+    text-align : center;
+    font-weight: 500;
+   
+}
+
+@media all and (max-width:375px){
+
+}
